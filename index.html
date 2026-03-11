@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="baidu-site-verification" content="codeva-xT0Pb9U8PG" />
-    <title>赵成斌医生官网 | 郑州大学第一附属医院神经外科 - 个人主页</title>
-    <meta name="description" content="赵成斌，郑州大学第一附属医院神经外科主治医师，医学博士。专注功能神经外科微创治疗，包括癫痫机器人手术、面肌痉挛MVD、三叉神经痛。">
+    <title>赵成斌医生官网 | 郑州大学第一附属医院神经外科</title>
+    <meta name="description" content="赵成斌，神经外科医学博士。专注功能神经外科微创治疗：难治性癫痫、面肌痉挛、三叉神经痛。">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -23,7 +23,8 @@
         .gradient-header { background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 100%); }
         .platform-btn { transition: all 0.2s; border: 1px solid #e2e8f0; }
         .platform-btn:hover { border-color: #0369a1; background: #f0f9ff; transform: translateY(-2px); }
-        .science-card { border-left: 4px solid #0369a1; }
+        .science-card { border-left: 4px solid #0369a1; transition: transform 0.2s; }
+        .science-card:hover { transform: translateX(5px); }
     </style>
 </head>
 <body class="bg-slate-50 font-sans text-slate-700 leading-relaxed">
@@ -54,130 +55,39 @@
                 <section class="bg-white rounded-3xl p-8 shadow-sm">
                     <h2 class="text-2xl font-serif font-bold text-slate-900 mb-4">专家简介</h2>
                     <p class="text-slate-600 mb-6 leading-relaxed">
-                        具有10余年神经外科临床经验，深度参与多项国家级科研项目。专注于神经外科多发病及复杂病例的精准诊治。
-                        2021-2022年期间，率先在河南省内开展机器人辅助下热凝毁损术，成功治疗下丘脑错构瘤及岛叶癫痫，填补了省内技术空白。
+                        具有10余年神经外科临床经验。2021-2022年期间，率先在河南省内开展机器人辅助下热凝毁损术治疗下丘脑错构瘤及岛叶癫痫。专注于利用微创外科手段解决疑难功能神经疾病。
                     </p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div class="bg-blue-50 p-4 rounded-2xl border border-blue-100">
-                            <h4 class="font-bold text-med-blue mb-1">擅长领域</h4>
-                            <p class="text-sm">难治性癫痫、面肌痉挛、三叉神经痛、帕金森病及各类颅内肿瘤微创手术。</p>
-                        </div>
-                        <div class="bg-blue-50 p-4 rounded-2xl border border-blue-100">
-                            <h4 class="font-bold text-med-blue mb-1">学术研究</h4>
-                            <p class="text-sm">专注于胶质瘤单细胞分析、CAR-T免疫疗法及脑机接口前沿研究。</p>
-                        </div>
-                    </div>
                 </section>
 
                 <div class="space-y-6">
-                    <h2 class="text-2xl font-serif font-bold text-slate-900 border-b pb-4">神经外科科普深度解析</h2>
+                    <h2 class="text-2xl font-serif font-bold text-slate-900 border-b pb-4">功能神经外科专题解析</h2>
 
                     <article class="bg-white rounded-3xl p-8 shadow-sm science-card">
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">一、难治性癫痫：从药物无奈到微创希望</h3>
-                        <p class="text-sm text-slate-600 mb-6">
-                            当药物无法有效控制癫痫发作时，寻找大脑内的“风暴中心”（致痫灶）是关键。我们利用<b>SEEG技术</b>在脑内植入微米级电极进行三维定位。
-                        </p>
-                        <div class="flex flex-col md:flex-row gap-6 mb-4">
-                            <div class="flex-1 p-5 bg-slate-50 rounded-2xl">
-                                <h4 class="font-bold text-med-blue mb-2">机器人热凝技术</h4>
-                                <p class="text-xs text-slate-500">2021年开展省内首例。利用机器人精准引导，通过毁损电极对病灶进行物理灭活，创口仅约2mm。</p>
-                            </div>
-                            <div class="flex-1 p-5 bg-slate-50 rounded-2xl">
-                                <h4 class="font-bold text-med-blue mb-2">康复优势</h4>
-                                <p class="text-xs text-slate-500">无需开颅，术后即刻起效，大大缩短了住院时间，是追求微创治疗患者的理想选择。</p>
-                            </div>
-                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">一、难治性癫痫：微创热凝技术</h3>
+                        <p class="text-sm text-slate-600 mb-6">药物无法控制发作？SEEG 精准定位下的机器人热凝手术为患者提供了无需开颅的新选择...</p>
+                        <a href="dianxian.html" class="inline-flex items-center text-med-blue font-bold hover:gap-2 transition-all">
+                            点击进入“癫痫专题”深度解析 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"></path></svg>
+                        </a>
                     </article>
 
                     <article class="bg-white rounded-3xl p-8 shadow-sm science-card">
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">二、面肌痉挛：解决“眼跳”的根源</h3>
-                        <p class="text-sm text-slate-600 mb-4">
-                            长期一侧眼皮或面部不由自主抽搐？这通常是血管随着年龄增长出现走行异常，压迫到了面神经。
-                        </p>
-                        <div class="bg-emerald-50 p-6 rounded-2xl">
-                            <h4 class="font-bold text-emerald-800 mb-2">显微血管减压术 (MVD)</h4>
-                            <p class="text-sm text-slate-700">
-                                这是目前国际公认的<b>根治手段</b>。在显微镜下，我们将压迫神经的血管垫开，像在电线和水源之间加上一层垫片，从物理上消除“短路”。
-                                <b>优势：</b> 根治率极高，保留神经功能，瞬间还您自然笑容。
-                            </p>
-                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">二、面肌痉挛：显微血管减压(MVD)</h3>
+                        <p class="text-sm text-slate-600 mb-6">眼皮不停抽动？通过显微手术解除血管对神经的压迫，是目前国际公认的根治方案...</p>
+                        <a href="mianji.html" class="inline-flex items-center text-med-blue font-bold hover:gap-2 transition-all">
+                            点击进入“面肌痉挛专题”深度解析 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"></path></svg>
+                        </a>
                     </article>
 
                     <article class="bg-white rounded-3xl p-8 shadow-sm science-card">
-                        <h3 class="text-xl font-bold text-slate-900 mb-4">三、三叉神经痛：终结“天下第一痛”</h3>
-                        <p class="text-sm text-slate-600 mb-6">
-                            洗脸、刷牙、甚至微风拂面都诱发刀割般的剧痛？这是三叉神经痛的典型症状。
-                        </p>
-                        <div class="space-y-4">
-                            <div class="p-4 border border-slate-100 rounded-xl">
-                                <p class="font-bold text-slate-800 text-sm">手术干预的重要性</p>
-                                <p class="text-xs text-slate-500 mt-1">对于不耐受长期药物副作用（如头晕、肝功异常）或药效减退的患者，MVD显微减压术可提供长效止痛方案，恢复正常进食与社交。</p>
-                            </div>
-                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">三、三叉神经痛：终结天下第一痛</h3>
+                        <p class="text-sm text-slate-600 mb-6">洗脸、刷牙诱发剧痛？通过分层诊疗方案，为不同年龄段患者提供最长效的止痛方案...</p>
+                        <a href="sancha.html" class="inline-flex items-center text-med-blue font-bold hover:gap-2 transition-all">
+                            点击进入“三叉神经痛专题”深度解析 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"></path></svg>
+                        </a>
                     </article>
                 </div>
             </div>
 
             <div class="lg:col-span-1 space-y-6">
                 <section class="bg-white rounded-3xl p-6 shadow-xl border border-slate-100">
-                    <h2 class="text-lg font-bold text-slate-900 mb-5 flex items-center border-b pb-3">
-                        <svg class="w-5 h-5 mr-2 text-med-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.828a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
-                        官方实名入口
-                    </h2>
-                    <div class="space-y-3">
-                        <a href="https://app.zdyfy.com:4433/zkhonry-lyt-interface/linkPageAction/doctorIndex.action?doctorCode=201065" target="_blank" class="platform-btn flex items-center p-3 rounded-2xl bg-blue-50 border-blue-200">
-                            <div class="w-10 h-10 rounded-full bg-blue-700 flex items-center justify-center text-white font-bold text-xs shrink-0">咨询</div>
-                            <div class="ml-4"><p class="font-bold text-sm text-blue-900">官方线上咨询</p><p class="text-xs text-blue-500">郑大一附院官方平台</p></div>
-                        </a>
-                        <a href="https://baike.baidu.com/item/%E8%B5%B5%E6%88%90%E6%96%8C/63027101" target="_blank" class="platform-btn flex items-center p-3 rounded-2xl">
-                            <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xs shrink-0">百科</div>
-                            <div class="ml-4"><p class="font-bold text-sm text-slate-800">百度百科</p><p class="text-xs text-slate-400">专家身份权威认证</p></div>
-                        </a>
-                        <a href="https://www.haodf.com/doctor/9032031339.html" target="_blank" class="platform-btn flex items-center p-3 rounded-2xl">
-                            <div class="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center text-white font-bold text-xs shrink-0">好大夫</div>
-                            <div class="ml-4"><p class="font-bold text-sm text-slate-800">好大夫在线</p><p class="text-xs text-slate-400">全国知名诊疗平台</p></div>
-                        </a>
-                        <a href="https://www.douyin.com/user/MS4wLjABAAAAXwhZyd-puW_5GDn-GVle_YT_lOtmzZ1q_QRY1oJ1FX4" target="_blank" class="platform-btn flex items-center p-3 rounded-2xl">
-                            <div class="w-10 h-10 rounded-full bg-black flex items-center justify-center text-white font-bold text-xs shrink-0">抖音</div>
-                            <div class="ml-4"><p class="font-bold text-sm text-slate-800">医学科普视频</p><p class="text-xs text-slate-400">短视频科普阵地</p></div>
-                        </a>
-                    </div>
-                </section>
-
-                <section class="bg-white rounded-3xl p-6 shadow-xl border border-slate-100">
-                    <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center">
-                        <svg class="w-5 h-5 mr-2 text-med-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                        线下门诊安排
-                    </h2>
-                    <div class="space-y-4">
-                        <div class="p-4 bg-slate-50 rounded-2xl border-r-4 border-med-blue text-right">
-                            <p class="font-bold text-med-blue">周二下午</p>
-                            <p class="text-xs text-slate-500">北院区 (惠济区) · 门诊楼</p>
-                        </div>
-                        <div class="p-4 bg-slate-50 rounded-2xl border-r-4 border-med-blue text-right">
-                            <p class="font-bold text-med-blue">周三下午</p>
-                            <p class="text-xs text-slate-500">河医院区 (建设路) · 门诊楼</p>
-                        </div>
-                    </div>
-                    <p class="text-[10px] text-slate-400 mt-4 text-center leading-tight">
-                        * 请通过“郑州大学第一附属医院”微信公众号提前挂号
-                    </p>
-                </section>
-            </div>
-        </div>
-    </main>
-
-    <footer class="bg-slate-900 text-slate-500 py-16 px-6 text-center mt-12">
-        <div class="max-w-4xl mx-auto space-y-4">
-            <p class="text-white font-serif font-bold text-lg">郑州大学第一附属医院 · 神经外科 · 赵成斌</p>
-            <p class="text-xs max-w-lg mx-auto leading-relaxed">
-                本站内容旨在提供医学科普参考，不作为具体的诊疗建议。具体的医疗决策请遵循线下门诊面诊指导。
-            </p>
-            <div class="pt-8 text-[10px] opacity-40">
-                © 2026 赵成斌. 保留所有权利. | 豫ICP备XXXXXXXX号
-            </div>
-        </div>
-    </footer>
-
-</body>
-</html>
+                    <h2 class="text-lg font-bold text-slate-900 mb-5 flex items-center border-b pb-3">实名入口</h2>
